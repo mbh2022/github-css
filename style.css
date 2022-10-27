@@ -1,18 +1,68 @@
-h1{
-text-transform: uppercase;
-letter-spacing: 2px;
-font-size: 2rem;
-color: rgb(34, 34, 134);
-text-shadow: 5px 0 0 rgb(231, 12, 12);
-text-align: center;
-font-family: "playfair display" serif;
-body{
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:wght@500&display=swap');
 
 @font-face {
-    font-family: "font-1";
-    background-attachment: url();
-}
-    
+    font-family:"font-1" ;
+    src: url(./assets/Courgette\,Playfair_Display.zip);
 }
 
+
+body{
+    font-family: "font-1" serif;
+    background: url(./assets/bg.jpg)no-repeat fixed center/cover;
+    height: 100%;
+}
+.title {
+    font-size: 2.5rem;
+    color: rgb(0, 255, 21);
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "playfair display" serif;
+    margin: 15px ;
+}
+main {
+    background: white;
+    width: 1300px ;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px ;
+    padding: 2px;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 0px;
+    border-radius: 15px ;
+    box-shadow: none;
+    
+}
+.position {
+    border: 2px solid rgb(0, 255, 21) ;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+#circle {
+    height: 40px;
+    width: 70px;
+    background: rgb(0, 255, 21);
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px ;
+    right: 10px ;
+}
+
+.titleText {
+    
+    border: 2px solid rgb(0, 255, 21) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    text-align: justify;
+    border-radius: 10px;
+    display:inline-block;
+    color: rgb(245, 247, 247);
 }
